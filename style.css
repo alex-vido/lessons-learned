@@ -1,4 +1,6 @@
 * {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
   margin: 0;
   padding: 0;
 }
@@ -8,8 +10,9 @@ body {
 }
 
 #cabecalho {
+  letter-spacing: 0.2rem;
   background-color: green;
-  color: #ffffff;
+  color: white;
   display: flex;
   top: 0;
   justify-content: center;
