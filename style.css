@@ -1,4 +1,5 @@
 * {
+  text-align: center;
   font-family: sans-serif;
   font-style: 18px;
   border: none;
@@ -32,8 +33,29 @@ aside h2 {
   font-style: oblique;
 }
 
-article, aside {  
-  display: inline-block;
-  width: 45%;
+.card {
+  display: flex;
+  flex-direction: row;
 }
 
+aside , article {
+  width: 45%;
+  align-items: center;
+}
+
+aside p {
+  justify-content: center;
+}
+
+header , div , footer {
+  margin-top: 1rem;
+}
+
+h1 , div h2 , h3 {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  height: 150px;
+  background-color: rgb(233, 255, 255);
+}
