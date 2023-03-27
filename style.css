@@ -9,6 +9,7 @@ body {
 
 #cabecalho {
   background-color: green;
+  color: #fff;
   display: flex;
   top: 0;
   justify-content: center;
