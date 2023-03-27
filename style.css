@@ -7,6 +7,14 @@
   padding: 0;
 }
 
+h1 {
+  font-size: 40;
+}
+
+h2 {
+  font-style: 32px;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -53,6 +61,12 @@ header , div , footer {
 
 h1 , div h2 , h3 {
   margin-bottom: 0.5rem;
+}
+
+a {
+  list-style: none;
+  text-decoration: solid;
+  color: rgb(181, 181, 181);
 }
 
 footer {
